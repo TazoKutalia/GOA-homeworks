@@ -1,0 +1,335 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title></title>
+        <style>
+            body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background: linear-gradient(135deg, #ff6f61, #d84a91);
+    color: #fff;
+    padding: 1rem 0;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    z-index: 1000;
+}
+
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.hero .btn {
+    background-color: #fff;
+    color: #ff7e5f;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    animation: fadeInUp 2s ease-out;
+}
+
+header h1 {
+    margin: 0;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 0 10%;
+    background: #fff;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+
+.product-gallery {
+padding: 2rem 0;
+}
+
+.product-gallery .container {
+max-width: 1200px;
+margin: 0 auto;
+display: flex;
+flex-wrap: wrap;
+gap: 2rem;
+}
+
+.product-card {
+background: #fff;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+overflow: hidden;
+flex: 1 1 calc(33.333% - 2rem);
+max-width: calc(33.333% - 2rem);
+text-align: center;
+transition: transform 0.3s ease;
+}
+
+.product-card img {
+width: 100%;
+height: auto;
+}
+.product-card h2 {
+font-size: 1.5rem;
+color: #333;
+margin: 1rem 0;
+}
+
+.product-card p {
+padding: 0 1rem;
+color: #666;
+}
+
+.product-card .btn {
+display: inline-block;
+margin: 1rem 0;
+padding: 0.5rem 1rem;
+color: #fff;
+background: #007BFF;
+text-decoration: none;
+border-radius: 4px;
+transition: background 0.3s ease;
+}
+
+.product-card .btn:hover {
+background: #0056b3;
+}
+.product-card .btn:hover {
+background: #0056b3;
+}
+
+.product-card:hover {
+transform: translateY(-5px);
+}
+
+footer .container {
+max-width: 1200px;
+margin: 0 auto;
+}
+
+
+.item{
+    width: max-content;
+    height: max-content;
+    margin: 50px;
+    background-color: gray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+.name{
+    margin: 0px;
+}
+.content{
+    margin-left: 35px;
+    margin-top: -15px;
+}
+.seemore{
+    border-radius: 25px;
+    margin-left: 15px;
+}
+.price{
+    margin-left: 20px;
+}
+.images{
+    width: 100px;
+    height: 100px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0.5rem 0;
+}
+
+footer a {
+    color: #b41a1a;
+    text-decoration: none;
+    margin: 0 0.5rem;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+.parallax {
+    background-image: url('parallax-bg.jpg');
+    height: 400px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.parallax-content {
+    max-width: 600px;
+    padding: 2rem;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+.scroll-progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 5px;
+    background-color: #ff7e5f;
+    width: 0;
+    z-index: 1000;
+}
+.product-card {
+    position: relative;
+    overflow: hidden;
+}
+
+.product-card img {
+    transition: transform 0.5s ease;
+}
+
+.product-card:hover img {
+    transform: scale(1.1);
+}
+
+.product-card:hover .product-card-info {
+    opacity: 1;
+}
+
+.product-card-info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+   
+
+
+            
+            
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <details>
+                    <summary>
+                    <i class="fa-regular fa-user"></i>
+                    </summary>
+                    <ul>
+                        <a href="pages/registrationGE.html" class="atag"><li>Sing up</li></a>	
+                        <details>
+                            <summary>
+                                <li>Change language</li>
+                            </summary>
+                            <ul>
+                                <li>English</li>
+                                <li><a href="mainEN.html" class="atag">English</a></li>
+                            </ul>
+                        </details>
+                    </ul>
+                </details>
+            </nav>
+            
+
+
+
+        </header>
+        <nav>
+            <ul>
+                <li><a href="cpuEN.html"> processors</a></li>
+                <li><a href="pages/gpu.html">video cards</a></li>
+                <li><a href="pages/mobo.html">Mother boards</a></li>
+                <li><a href="pages/ram.html">Ram</a></li>
+                <li><a href="pages/cooler.html">Coolers</a></li>
+                <li><a href="pages/case.html">Cases</a></li>
+                <li><a href="pages/psu.html">food blocks</a></li> 
+            </ul>
+        </nav>
+        <main>
+            <section class="product-gallery">
+                <div class="item">
+                    <figure><img src="imgs/cpu-1.jpg" alt="AMD Ryzen 7 7700X" class="images"></figure>
+                    <div class="content">
+                        <h2 class="name">AMD Ryzen 7 7700X</h2>
+                        <div class="price">
+                            900 GEL
+                        </div>
+                        <div class="directional">
+                            <button class="seemore"><a href="">See more</a></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <figure><img src="imgs/cpu-2.jpg" alt="Intel Core i9 14900КF BOX" class="images"></figure>
+                    <div class="content">
+                        <h2 class="name">Intel Core i9 14900КF BOX</h2>
+                        <div class="price">
+                            1850 GEL
+                        </div>
+                        <div class="directional">
+                            <button class="seemore"><a href="">See more</a></button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <h2></h2>
+            <p></p>
+
+
+        </footer>
+    </body>
+</html>
