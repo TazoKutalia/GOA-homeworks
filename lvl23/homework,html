@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example Table</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Table element -->
+<table>
+    <!-- Table heading -->
+    <thead>
+        <tr>
+            <th>Header 1</th>
+            <th>Header 2</th>
+            <th>Header 3</th>
+            <th>Header 4</th>
+            <th>Header 5</th>
+            <th>Header 6</th>
+        </tr>
+    </thead>
+    <!-- Table body -->
+    <tbody>
+        <!-- First data row -->
+        <tr>
+            <td>Row1 Col1</td>
+            <td>Row1 Col2</td>
+            <td>Row1 Col3</td>
+            <td>Row1 Col4</td>
+            <td>Row1 Col5</td>
+            <td>Row1 Col6</td>
+        </tr>
+        <!-- Second data row -->
+        <tr>
+            <td>Row2 Col1</td>
+            <td>Row2 Col2</td>
+            <td>Row2 Col3</td>
+            <td>Row2 Col4</td>
+            <td>Row2 Col5</td>
+            <td>Row2 Col6</td>
+        </tr>
+        <!-- Third data row -->
+        <tr>
+            <td>Row3 Col1</td>
+            <td>Row3 Col2</td>
+            <td>Row3 Col3</td>
+            <td>Row3 Col4</td>
+            <td>Row3 Col5</td>
+            <td>Row3 Col6</td>
+        </tr>
+        <!-- Fourth data row -->
+        <tr>
+            <td>Row4 Col1</td>
+            <td>Row4 Col2</td>
+            <td>Row4 Col3</td>
+            <td>Row4 Col4</td>
+            <td>Row4 Col5</td>
+            <td>Row4 Col6</td>
+        </tr>
+        <!-- Fifth data row -->
+        <tr>
+            <td>Row5 Col1</td>
+            <td>Row5 Col2</td>
+            <td>Row5 Col3</td>
+            <td>Row5 Col4</td>
+            <td>Row5 Col5</td>
+            <td>Row5 Col6</td>
+        </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
