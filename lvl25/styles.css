@@ -1,0 +1,16 @@
+#header {
+    color: orange;
+    text-align: center;
+}
+
+.paragraph-style {
+    font-size: 16px;
+    color: darkblue;
+}
+
+.button-style {
+    background-color: lightgreen;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internal CSS Example</title>
+    <style>
+        #header {
+            color: red;
+            text-align: center;
+        }
+        .paragraph-style {
+            font-size: 18px;
+            color: purple;
+        }
+        .button-style {
+            background-color: lightblue;
+            border: none;
+            padding: 12px 24px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="header">Welcome</h1>
+    <p class="paragraph-style">აქ გამოყენებულია internal css</p>
+    <button class="button-style">Click Me</button>
+</body>
+</html>
