@@ -1,0 +1,28 @@
+table {
+    width: 100%;
+    border-collapse: collapse; /* Ensures there are no gaps between table cells */
+    margin: 20px 0; /* Adds some margin around the table */
+}
+
+/* Styling for table headers */
+th, td {
+    border: 1px solid #ddd; /* Adds a light border to table cells */
+  
+    text-align: left; /* Aligns text to the left */
+}
+
+/* Styling for table headers */
+th {
+    background-color: #f2f2f2; /* Light gray background for headers */
+    color: black; /* Black text color for headers */
+}
+
+/* Styling for odd rows */
+tr:nth-child(odd) {
+    color: red; /* Red text color for odd rows */
+}
+
+/* Styling for even rows */
+tr:nth-child(even) {
+    color: green; /* Green text color for even rows */
+}
