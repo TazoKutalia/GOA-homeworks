@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+    font-family: Roboto;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 400px;
+    background-color: white;
+    box-shadow: 3px 3px 15px rgb(206, 206, 206);
+    border-radius: 10px;
+}
+
+.form-head {
+    border-radius: 10px 10px 50% 50%;
+    background-color: #E05CB7;
+    padding: 20px;
+    color: white;
+    text-align: center;
+
+}
+
+h1 {
+    font-weight: 500;
+    font-size: x-large;
+}
+
+.form-main {
+    padding: 40px;
+}
+
+.form-footer {
+    text-align: center;
+    padding: 20px;
+    font-size: small;
+    color: rgb(195, 195, 195);
+}
+
+a {
+    color: #E05CB7;
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+label {
+    font-size: small;
+    font-weight: 500;
+    color: rgb(58, 48, 48);
+}
+
+input{
+    padding: 7px;
+    border: 1px solid #E05CB7;
+    border-radius: 5px;
+    color: rgb(58, 48, 48);
+    width: 100%;
+}
+
+button {
+    padding: 8px;
+    background-color: #E05CB7;
+    border: 1px solid #E05CB7;
+    color: white;
+    width: 100%;
+    border-radius: 5px;
+}
+
+input:focus {
+    outline: none;
+}

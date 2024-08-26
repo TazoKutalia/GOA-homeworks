@@ -1,0 +1,15 @@
+ul{
+    list-style: georgian;
+    list-style-type: circle;
+    background-color: aqua;
+    list-style-position: inside;
+
+
+}
+ol{
+    background-color: blue;
+    list-style-type: square;
+    list-style-position: outside;
+
+
+}
