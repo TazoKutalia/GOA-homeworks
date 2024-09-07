@@ -1,0 +1,22 @@
+
+.div1 {
+    /* div1 ის ფონის ფერი */
+    background-color:greenyellow ;
+    
+    /* div1 ის საზღვარი */
+    border: 2px  blue;
+    
+    /* Padding div1 ის შიგნით */
+    padding: 20px; 
+    
+    /* Margin div1 ის გარეთ */
+    margin: 10px;
+}
+
+
+.div2 {
+    background-color: lightgreen;
+    border: 2px solid green; 
+    padding: 15px;
+    margin: 20px; 
+}
