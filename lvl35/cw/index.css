@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+
+.parent{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 900px;
+    height: 700px;
+    border: 10px;
+    border-color: blue;
+    gap: 20px;
+    padding: 20px;
+
+}
+
+.child{
+    border: 5px green;
+    background-color: aquamarine;
+    object-fit: cover;
+    position: relative;
+
+}
+.child img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    display: block; 
+}
