@@ -1,0 +1,19 @@
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: #e74c3c;
+    
+}
+
+    .square:active{
+        transform: translate(-100px);
+        transform: scale(1.5);
+        transform: rotate(45deg)
+    }
+
+
+/* transform ატრიბუტი საშუალებას გვსძლევს დავატრიალოთ, დავხაროთ ეს ელემენტი.*/
+
+
+
+
