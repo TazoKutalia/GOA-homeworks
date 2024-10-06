@@ -23,6 +23,8 @@ ul {
 
 @media (max-width: 1000px) {
     ul {
+        list-style: none;
+        display: flex;
         gap:50px;
         display: none;
         flex-direction: column;
@@ -34,6 +36,8 @@ ul {
 
 @media (max-width: 500px) {
     nav {
+        list-style: none;
+        display: flex;
         gap:25px;
         flex-direction: column;
         align-items: flex-start;

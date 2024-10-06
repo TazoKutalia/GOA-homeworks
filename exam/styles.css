@@ -1,0 +1,152 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+
+
+
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    color: #333;
+    background-color:bisque;
+
+
+
+
+}
+header{
+    background: #cf8803;
+    color: #fff;
+    padding:10px;
+    text-align: center;
+
+
+
+
+}
+nav ul{
+    list-style: none;
+
+
+
+}
+nav ul li{
+    display: inline;
+    margin: 0 15px;
+
+
+
+
+
+}
+nav ul li a{
+    color: antiquewhite;
+    font-weight: bold;
+
+
+
+
+
+
+}
+#home{
+    color: #fff;
+    height: 100px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+
+
+}
+#home h1{
+    margin-bottom: 20px;
+    font-size: 40px;
+
+
+
+
+
+
+
+}
+#home p{
+    font-size: 40px;
+    margin-bottom: 20px;
+
+
+
+
+
+}
+section{
+    text-align: center;
+    padding: 60px 20px;
+
+
+
+
+}
+h2{
+    margin-bottom: 20px;
+    font-size: 40px;
+
+
+
+
+
+
+}
+#aboutme p{
+    margin-bottom: 20px;
+    font-size: 15px;
+
+
+
+
+}
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 30px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px;
+
+
+
+
+}
+button{
+    background-color: #ff5722;
+    color: azure;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    display: inline-block;
+
+
+
+
+
+}
+button:hover{
+    background-color: #e64a19;
+    transform: scale(1.05) rotate(2deg);
+
+
+
+}
+button:active{
+    transform: scale(0.95);
+    background-color: #a00606;
+
+
+
+
+
+
+}

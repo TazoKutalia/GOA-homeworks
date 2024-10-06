@@ -1,0 +1,12 @@
+div {
+    height: 40px;
+    width: 60px;
+   background-color: aqua;
+}
+
+div:hover{
+    transform: rotate(30deg);
+    -webkit-transform: rotate(25deg);
+    -moz-transform: rotate(20deg);
+    -ms-transform: rotate(15deg);
+}
