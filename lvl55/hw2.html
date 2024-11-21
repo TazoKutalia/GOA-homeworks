@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <script>
+        function calculate() {
+            var num1 = parseFloat(document.getElementById('num1').value);
+            var num2 = parseFloat(document.getElementById('num2').value);
+            var operation = document.querySelector('input[name="operation"]:checked').value;
+            var result;
+
+            if (operation === '+') {
+                result = num1 + num2;
+            } else if (operation === '-') {
+                result = num1 - num2;
+            } else {
+                result = "Invalid operation";
+            }
+
+            document.getElementById('result').innerText = "Result: " + result;
+        }
+    </script>
+</head>
+<body>
+    <h2>Simple Calculator</h2>
+    <label for="num1">First number:</label>
+    <input type="number" id="num1">
+    <br>
+    <label for="num2">Second number:</label>
+    <input type="number" id="num2">
+    <br>
+    <label for="addition">Add</label>
+    <input type="radio" id="addition" name="operation" value="+">
+    <label for="subtraction">Subtract</label>
+    <input type="radio" id="subtraction" name="operation" value="-">
+    <br>
+    <button onclick="calculate()">Calculate</button>
+    <p id="result"></p>
+</body>
+</html>
