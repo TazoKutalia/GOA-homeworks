@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Preferences</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .big-text {
+            font-size: 24px;
+        }
+        .long-text {
+            width: 80%;
+            margin: 0 auto;
+        }
+        #content {
+            padding: 20px;
+            text-align: center;
+        }
+        .button {
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="content">
+        <h1>Welcome to the Site</h1>
+        <p>We will customize your experience based on your preferences.</p>
+        <button class="button" onclick="askQuestions()">Start</button>
+    </div>
+
+    <script>
+        function askQuestions() {
+            let blackScreen = confirm("Do you want a black screen?");
+            let bigText = confirm("Do you want big text?");
+            let longText = confirm("Do you want long text?");
+
+            applyPreferences(blackScreen, bigText, longText);
+        }
+
+        function applyPreferences(blackScreen, bigText, longText) {
+            // Black screen
+            if (blackScreen) {
+                document.body.style.backgroundColor = "black";
+                document.body.style.color = "white";
+            }
+
+            // Big text
+            if (bigText) {
+                document.body.classList.add("big-text");
+            }
+
+            // Long text
+            if (longText) {
+                document.getElementById("content").innerHTML = `
+                    <h1>Customized Experience</h1>
+                    <p class="long-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae accumsan nisl. 
+                        Aenean at dui sit amet ligula aliquet aliquet. Ut suscipit lorem libero, 
+                        vel euismod purus ultricies id. Sed at efficitur libero. Etiam tincidunt velit 
+                        felis, in egestas sapien dictum id. Integer consequat, libero in euismod 
+                        facilisis, turpis lorem pharetra lorem, sit amet dictum metus purus ut dui.
+                    </p>
+                    <button class="button" onclick="askQuestions()">Change Preferences</button>
+                `;
+            }
+        }
+    </script>
+
+</body>
+</html>
