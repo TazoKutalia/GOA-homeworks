@@ -1,0 +1,32 @@
+<div class="circle"></div>
+<div class="square top"></div>
+<div class="square bottom"></div>
+<div class="square left"></div>
+<div class="square right"></div>
+<style>
+  body {
+    margin: 0;
+    background: #6D62BA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .circle {
+    width: 90px;
+    height: 90px;
+    background: #A1E6E4;
+    border-radius: 50%;
+    position: absolute;
+  }
+  .square {
+    width: 85px;
+    height: 30px;
+    background: #A1E6E4;
+    position: absolute;
+  }
+  .top { top: calc(55% - 121px); }
+  .bottom { top: calc(55% + 61px); }
+  .left { left: calc(50% - 130px); transform: rotate(90deg); }
+  .right { left: calc(40% + 90px); transform: rotate(90deg); }
+</style>
